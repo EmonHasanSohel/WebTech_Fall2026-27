@@ -26,7 +26,6 @@
             <a href="Contact.html"> Contact Us</a>
         </div>
         
-        <!-- স্যারের স্টাইলে onsubmit ইভেন্ট যুক্ত করা হলো -->
         <form onsubmit="return collect_data()">
             <fieldset>
                 <legend> Volunteer Personal Information </legend>
@@ -34,9 +33,7 @@
                     <tr>
                         <td> <label for="VolunteerName">Volunteer Name: </label> </td>
                         <td> 
-                            <!-- required সরিয়ে দেওয়া হয়েছে কারণ JS দিয়ে চেক হবে -->
                             <input type="text" id="VolunteerName" placeholder="Enter Your Name"> 
-                            <!-- এরর দেখানোর জায়গা -->
                             <p id="ErrorText"></p>
                         </td>
                     </tr>
